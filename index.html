@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Micton</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="calculadora">
+        <!-- Inputs del usuario -->
+        <input type="number" id="numeroA" placeholder="Ingresa un numero">
+        <input type="number" id="numeroB" placeholder="Ingresa un numero">
+        <br>
+        <!-- Botones de interaccion -->
+        <button onclick="realizarOperacion('sumar')">Sumar</button> 
+        <button onclick="realizarOperacion('restar')">Restar</button>
+        <button onclick="realizarOperacion('multiplicar')">Multiplicar</button>
+        <button onclick="realizarOperacion('dividir')">Dividir</button>
+        <br>
+        <!-- Resultado -->
+         <p id="resultado">Resultado = </p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
